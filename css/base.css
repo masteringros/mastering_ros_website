@@ -1,0 +1,268 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+@font-face {
+  font-family: 'typicons';
+  src: url("../typicons/typicons.eot");
+  src: url("../typicons/typicons.eot?#iefix") format('embedded-opentype'),
+       url("../typicons/typicons.woff") format('woff'),
+       url("../typicons/typicons.ttf") format('truetype'),
+       url("../typicons/typicons.svg#typicons") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2 .typcn {
+    font-size:60px;
+    padding-right:20px;
+}
+
+body {
+    color:#222;
+    font-family:"Helvetica Neue", "Helvetica", sans-serif;
+}
+
+h1, h2, h3, h4, ul.tabs li {
+    color:#2a7c5d;
+    font-family:"Source Sans Pro", sans-serif;
+}
+
+h2 {
+    margin:60px 0 30px 0;
+}
+
+.pb20 {
+    padding-bottom:20px;
+}
+.pb20 {
+    padding-bottom:40px;
+}
+.pt20 {
+    padding-top:20px;
+}
+.pt20 {
+    padding-top:40px;
+}
+
+
+a {
+    color:#44B78B;
+}
+
+a:hover {
+    color:#2a7c5d;
+}
+
+ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+li {
+    margin-bottom:10px;
+    font-size:14px;
+}
+
+em {
+    color:#44B78B;
+    font-family:Georgia, serif;
+}
+
+.tagline {
+    color:#fffbb3;
+    text-align:justify;
+}
+
+.wide {
+    width:100%;
+}
+
+.grey {
+    background:#efefef;
+    color:#666;
+}
+
+.green {
+    background:#44B78B;
+    color:#2a7c5d;
+    padding:20px 0 60px 0;
+    margin:40px 0;
+    overflow:auto;
+}
+
+.green .links a {
+    color:#fffbb3;
+}
+
+.green .links a:hover {
+    color:#fff;
+}
+
+.green.bird {
+    margin-top:0;
+    background:#44B78B url('../img/bird.png') 110% 80px no-repeat;
+}
+
+.green.bird h1 {
+    margin-top:40px;
+}
+
+@media only screen and (max-width: 40.063em) {
+    .green.bird {
+        background-image:none;
+    }
+}
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+    .green.bird {
+        background-position: 110% 60px;
+    }
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    .green.bird {
+        background-size:70% auto;
+        background-position: 120% 100px;
+    }
+}
+
+.green h1, .green h2, .green h3 {
+    color:#fff;
+}
+
+.green h1.alt, .green h2.alt, .green h3.alt {
+    color:#cccccc;
+}
+
+.green input[type="text"],
+.green input[type="email"] {
+    background-color:#8ae8c4;
+    color:#2a7c5d;
+    box-shadow:none;
+    border-radius:5px;
+    font-size:16px;
+    border:0;
+    padding:20px;
+    height:3.4rem;
+    margin-top:3px;
+}
+
+::-webkit-input-placeholder { color:#36b886; }
+::-moz-placeholder { color:#36b886; } /* firefox 19+ */
+:-ms-input-placeholder { color:#36b886; } /* ie */
+input:-moz-placeholder { color:#36b886; }
+
+.button {
+    font-family:"Roboto", sans-serif;
+    background:transparent;
+    border:2px solid #fff;
+    text-transform: uppercase;
+    border-radius:5px;
+}
+
+.button.small {
+    font-size:14px;
+}
+
+.button.small img {
+    margin-top:6px;
+}
+
+.button:hover {
+    background:rgba(42,124,93,0.7);
+}
+
+.button .typcn {
+    font-size:20px;
+    margin-right:10px;
+}
+
+.bird {
+
+}
+
+.flower {
+    background:#fff url('../img/flower.jpg') bottom left no-repeat;
+    margin-bottom:0;
+}
+
+@media only screen and (max-width: 40.063em) {
+    .flower {
+        background:none;
+    }
+}
+
+.pt40{
+    padding-top:40px;
+}
+
+.cover {
+}
+
+img.author {
+    border-radius:50%;
+    width:100%;
+    margin-bottom:40px;
+}
+
+blockquote {
+  quotes: "\201C""\201D""\2018""\2019";
+  font-family:Georgia, serif;
+  border:0;
+  margin:0 0 20px 0;
+  padding:0;
+  color:#222;
+}
+blockquote::before {
+    color: #ccc;
+    content: "“";
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+.name {
+    font-family:georgia, serif;
+    font-style: italic;
+    color:#666;
+    margin-bottom:40px;
+}
+
+
+ul.tabs li {
+    background:#d4f6e9;
+    color:#2a7c5d;
+    padding:10px;
+    font-size:18px;
+}
+
+ul.tabs li.selected {
+    background:#8ae8c4;
+}
+
+@media only screen and (max-width: 40.063em) {
+    ul.tabs li {
+        float:left;
+        width:50%;
+        font-size:16px;
+        height:60px;
+        margin:0;
+        vertical-align: middle;
+    }
+}
+
+.slide {
+    background:#8ae8c4;
+    padding:40px;
+    color:#2a7c5d;
+}
+
+.info .typcn {
+    font-size:32px;
+}
